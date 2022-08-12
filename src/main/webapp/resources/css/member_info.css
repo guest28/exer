@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* 로그인 박스 */
+#login_box {
+	width:500px;
+	font-size:14pt;
+}
+
+
+/* 로그인 버튼 */
+#login_buttons {
+	width:500px;
+}
+
+/* 뷰 박스 */
+article#view_box {
+    float:left;
+    margin-left:50px;	
+	width:680px;
+	font-size:13pt;
+	line-height:20pt;
+}	
+
+/* 소 제목 */
+form fieldset legend.view_title {
+	font-size: 17pt; 
+	border-bottom: 1px dotted #666;
+	width: 680px; 
+	padding: 10px 0; 
+	margin:20px 0;
+}
+
+span#left_btn:hover, span#right_btn:hover {
+	color:white; 
+	opacity:1;
+	font-size:4em;
+}
+
+/* 슬라이드 가운데 공(blank) 패널 */
+div#blank_panel {
+	float:left;
+	width:740px;
+	height:100px;
+} 
+
+/* 슬라이드 오른쪽 메뉴 */
+div#right_btn_pnl {
+	float:left;
+	width:80px;
+	height:100px;
+	cursor:pointer;
+	text-align:right;
+}
+
+/* 슬라이드 이미지들 */
+.slider_image {
+    float:left;
+    top:0px;
+    width:200px;
+    height:150px;
+    position:relative;
+ 	margin:0 5px;
+ 	left: 0;
+ 	top:0;
+}
